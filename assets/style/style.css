@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.tittle {
+    font-weight: normal;
+    margin-left: 400px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 50px;
+}
+
+.container-info {
+    display: flex;
+    margin-left: 400px;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
