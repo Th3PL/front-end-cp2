@@ -6,7 +6,8 @@
 }
 .tittle {
     font-weight: normal;
-    margin-left: 400px;
+    font-size: 45px;
+
 }
 
 .container {
@@ -17,11 +18,42 @@
 
 .container-info {
     display: flex;
-    margin-left: 400px;
+    margin-bottom: 15px;
+    font-size: 25px;
 }
 
 .container-img {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 15px 0;
 }
+
+.container-img img{
+    border-radius: 10px;
+}
+
+.container-img-secundary{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container-img-secundary-colum{
+    flex-direction: column;
+}
+
+.description {
+font-size: 27px;
+}
+
+.description-text {
+    font-size: 17px;
+}
+
+.container-bottom {
+    margin-top: 20px;
+    display: ;
+}
+
+.price{
+    flex-direction: row;
+}
+
